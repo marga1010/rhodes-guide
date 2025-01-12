@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhodes Digital Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rhodes Digital Guide</h1>
+    </header>
+    <nav>
+        <a href="#attractions">Attractions</a>
+        <a href="#beaches">Beaches</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="attractions">
+        <h2>Top Attractions in Rhodes</h2>
+        <ul>
+            <li>
+                <h3>Palaia Poli (Old Town)</h3>
+                <p>Explore the medieval charm of the Old Town, a UNESCO World Heritage Site.</p>
+                <img src="images/old_town.jpg" alt="Old Town of Rhodes">
+            </li>
+            <li>
+                <h3>Butterfly Valley</h3>
+                <p>A peaceful natural reserve filled with butterflies during summer.</p>
+                <img src="images/butterfly_valley.jpg" alt="Butterfly Valley">
+            </li>
+            <li>
+                <h3>Acropolis of Lindos</h3>
+                <p>An ancient archaeological site with stunning views of the Aegean Sea.</p>
+                <img src="images/lindos_acropolis.jpg" alt="Acropolis of Lindos">
+            </li>
+            <li>
+                <h3>Kallithea Springs</h3>
+                <p>Historical thermal baths with stunning architecture and views.</p>
+                <img src="images/kallithea_springs.jpg" alt="Kallithea Springs">
+            </li>
+            <li>
+                <h3>Monolithos Castle</h3>
+                <p>A medieval castle offering breathtaking views of the coastline.</p>
+                <img src="images/monolithos_castle.jpg" alt="Monolithos Castle">
+            </li>
+        </ul>
+    </section>
+    <section id="beaches">
+        <h2>Beautiful Beaches in Rhodes</h2>
+        <ul>
+            <li>
+                <h3>Tsambika Beach</h3>
+                <p>A sandy beach with crystal-clear waters, perfect for families.</p>
+                <img src="images/tsambika_beach.jpg" alt="Tsambika Beach">
+            </li>
+            <li>
+                <h3>Anthony Quinn Bay</h3>
+                <p>A picturesque bay named after the famous actor, ideal for snorkeling.</p>
+                <img src="images/anthony_quinn_bay.jpg" alt="Anthony Quinn Bay">
+            </li>
+            <li>
+                <h3>Prasonisi</h3>
+                <p>A unique spot where the Aegean and Mediterranean seas meet.</p>
+                <img src="images/prasonisi.jpg" alt="Prasonisi">
+            </li>
+            <li>
+                <h3>Faliraki Beach</h3>
+                <p>A lively beach with water sports and vibrant nightlife.</p>
+                <img src="images/faliraki_beach.jpg" alt="Faliraki Beach">
+            </li>
+            <li>
+                <h3>Agathi Beach</h3>
+                <p>A hidden gem with golden sand and shallow waters.</p>
+                <img src="images/agathi_beach.jpg" alt="Agathi Beach">
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or suggestions, feel free to reach out!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Rhodes Digital Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
